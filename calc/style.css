@@ -1,0 +1,98 @@
+body{
+    font-family: sans-serif;
+}
+button{
+    cursor: pointer;
+}
+.container{
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calc{
+    background-color: black;
+    height: 500px;
+    width: 310px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.numbers{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.numbers button{
+    height: 70px;
+    width: 70px;
+    border: none;
+    background-color: #323232;
+    color: white;
+    font-size: 30px;
+    border-radius: 50%;
+}
+.objects{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    transform: translate(230px, -400px);
+}
+.objects button{
+    background-color: #FE9505;
+    border: none;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.displayd{
+    height: 50px;
+    width: 90%;
+    margin-top: 0px;
+}
+.display{
+    display: flex;
+    text-align: end;
+    background-color: black;
+    width: 285px;
+    border: none;
+    color: white;
+    height: 60px;
+    padding-right: 20px;
+    font-size: 23px;
+    font-weight: bold;
+}
+.other button{
+    background-color: #A5A5A5;
+    border: none;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.reverse{
+    transform: translateY(20px);
+}
+.reverseimg{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    transform: translateY(4px);
+}
+#zero{
+    height: 70px;
+    width: 145px;
+    background-color: #333;
+    border-radius: 90px; 
+    color: white; 
+    font-size: 16px;
+    text-align: start;
+    padding-left: 20px;
+    font-size: 30px;
+}

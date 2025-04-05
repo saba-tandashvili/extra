@@ -1,0 +1,196 @@
+body {
+  background-color: #f5f6fa;
+  font-family: sans-serif;
+  height: 220vh;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.first {
+  background-color: white;
+  height: 200px;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  padding-top: 15px;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: -10px 10px 10px #e6e6e6;
+}
+.rate {
+  background-color: #f5f6fa;
+  height: 120px;
+  width: 35px;
+  border-radius: 8px;
+  position: absolute;
+  left: 30px;
+  top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.rate p {
+  color: #5c5aad;
+  font-weight: bold;
+}
+.rate button {
+  color: #c6c1e8;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 19px;
+}
+.img {
+  height: 40px;
+  width: 40px;
+}
+.top {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.name {
+  font-size: 20px;
+  margin-left: 20px;
+}
+.date {
+  margin-left: 20px;
+  color: #a0a4a9;
+}
+.reply {
+  color: #5357b6;
+  border: none;
+  background-color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transform: translateX(400%);
+  cursor: pointer;
+}
+.second .reply {
+  transform: translateX(370%);
+}
+.text {
+  color: #878c92;
+  line-height: 1.5;
+}
+.second {
+  background-color: white;
+  height: 200px;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  padding-top: 15px;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 20px;
+  box-shadow: -10px 10px 10px #e6e6e6;
+
+}
+
+.replysz {
+  background-color: white;
+  height: 200px;
+  width: 530px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  padding-top: 15px;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 20px;
+  transform: translate(23%);
+  padding-right: 20px;
+  box-shadow: -10px 10px 10px #e6e6e6;
+
+}
+.replyr {
+  color: #5357b6;
+  border: none;
+  background-color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transform: translateX(200%);
+  cursor: pointer;
+}
+.edit {
+  color: #5357b6;
+  border: none;
+  background-color: white;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.tag {
+  color: #5357b6;
+  font-weight: bold;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.you {
+  background-color: #5357b6;
+  height: 23px;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 2px;
+  margin-left: 5px;
+}
+.delete {
+  border: none;
+  background-color: transparent;
+  color: #c86869;
+  font-weight: bold;
+  font-size: 17px;
+  cursor: pointer;
+}
+.ssecond .top {
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.add{
+    height: 130px;
+    width: 95%;
+    background-color: white;
+    margin-top: 50px;
+    box-shadow: -10px 10px 10px #e6e6e6;
+    border-radius: 10px;
+    padding: 20px;
+}
+.add .img{
+    height: 50px;
+    width: 50px;
+}
+.add input{
+    height: 110px;
+    width: 95vh;
+    padding-left: 20px;
+    border: solid 1px #d1d1d1;
+    border-radius: 10px;
+    color: #606368;
+    font-size: 18px;
+}
+.add button{
+    height: 50px;
+    width: 100px;
+    background-color: #5358B6;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    transform: translate(10px, -30px);
+}

@@ -1,0 +1,285 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.everything{
+    background: linear-gradient(to bottom, #04091C, #0A1542);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1.5%;
+    height: 172vh;
+}
+header{
+    display: flex;
+    background-color: #1F2535;
+    height: 70px;
+    width: 100%;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+button{
+    cursor: pointer;
+}
+.logo1{
+    height: 50px;
+    width: 200px;
+}
+.logo2{
+    height: 50px;
+    width: 200px;
+    display: none;
+}
+.sunmoon{
+    background-color: #2F354D;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.sunmoon:hover{
+    background-color: #545969;
+}
+.moon{
+    display: none;
+}
+
+.mid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+}
+.list{
+    color: white;
+}
+.buttonsz{
+    display: flex;
+    gap: 10px;
+}
+.all{
+    background-color: #F45B54;
+    color: black;
+    height: 41px;
+    width: 60px;
+    border: solid 1px #3A4155;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.all:hover{
+    background-color: #545969;
+}
+.active{
+    background-color: #2F354B;
+    color: white;
+    height: 41px;
+    width: 100px;
+    border: solid 1px #3A4155;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.active:hover{
+    background-color: #545969;
+}
+.inactive{
+    background-color: #2F354B;
+    color: white;
+    height: 41px;
+    width: 100px;
+    border: solid 1px #3A4155;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.inactive:hover{
+    background-color: #545969;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 365px 365px 365px;
+}
+
+.extension{
+    background-color: #1F2535;
+    height: 150px;
+    width: 320px;
+    border: solid 1px #3A4155;
+    border-radius: 20px;
+    padding: 15px;
+}
+.name{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.info{
+    color: #9CA0AC;
+    font-size: 15px;
+}
+.top{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    transform: translate(75px, -80px);
+}
+.img{
+    height: 60px;
+    width: 60px;
+}
+.remove{
+    height: 40px;
+    width: 100px;
+    background-color: transparent;
+    border: solid 1px #373D4D;
+    border-radius: 20px;
+    color: white;
+    transform: translateY(-50px);
+    transition: 0.3s;
+}
+.remove:hover{
+    color: black;
+    background-color: #F25B53;
+}
+.remove1{
+    transform: translateY(-70px);
+}
+
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+
+/* Hide default checkbox */
+.toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The track */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    background-color: #ccc;
+    border-radius: 24px;
+    width: 100%;
+    height: 100%;
+    transition: background-color 0.3s;
+    transform: translate(150px, -50px);
+}
+.slider1 {
+    position: absolute;
+    cursor: pointer;
+    background-color: #ccc;
+    border-radius: 24px;
+    width: 100%;
+    height: 100%;
+    transition: background-color 0.3s;
+    transform: translate(150px, -70px);
+}
+
+/* The circular slider */
+.slider::before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 2px;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+/* Toggled state */
+.toggle-switch input:checked+.slider {
+    background-color: #F25B53;
+}
+
+.toggle-switch input:checked+.slider::before {
+    transform: translateX(22px);
+}
+
+/* js */
+.sunmoonz{
+    background-color: #EEEDEC;
+}
+.sunz{
+    display: none;
+}
+.moonz{
+    display: block;
+}
+
+
+.listz{
+    color: black;
+}
+
+.headz{
+    background-color: #FCFDFF;
+    border: 1px solid #DCE0E9;
+}
+.logo1z{
+    display: none;
+}
+.logo2z{
+    display: block;
+}
+
+
+.allz{
+    color: white;
+}
+.activez{
+    background-color: #FCFCFD;
+    color: black;
+    border: solid 1px #D9DFEB;
+}
+.inactivez{
+    background-color: #FCFCFD;
+    color: black;
+    border: solid 1px #D9DFEB;
+}
+
+
+.extensionz{
+    background-color: #FCFDFF;
+    border: solid 1px #D9DFEB;
+}
+.namz{
+    color: black;
+}
+.removez{
+    color: black;
+}
+
+.extsz{
+    display: none;
+}
+
+
+.everythingz{
+    background: none;
+    background-color: #EEF9FB;
+}
+
+.incz{
+    display: none;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calc</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="calc">
+            <div class="displayd">
+                <input readonly class="display">
+            </div>
+
+            <div class="other">
+                <button class="clear" onclick="clearDisplay('')">C</button>
+                <button class="reverse"><img src="Screenshot 2025-03-22 163715.png" class="reverseimg"></button>
+                <button class="procent" onclick="appendToDisplay('%')">%</button>
+            </div>
+
+            <div class="numbers">
+                    <div>
+                        <button class="one" onclick="appendToDisplay('1')">1</button>
+                        <button class="two" onclick="appendToDisplay('2')" >2</button>
+                        <button class="three" onclick="appendToDisplay('3')">3</button>
+                    </div>
+                    <div>
+                        <button class="four" onclick="appendToDisplay('4')" >4</button>
+                        <button class="five" onclick="appendToDisplay('5')" >5</button>
+                        <button class="six" onclick="appendToDisplay('6')" ">6</button>
+                    </div>
+                    <div>
+                        <button class="seven" onclick="appendToDisplay('7')" >7</button>
+                        <button class="eight" onclick="appendToDisplay('8')" >8</button>
+                        <button class="nine" onclick="appendToDisplay('9')" >9</button>
+                    </div>
+                    <div>
+                        <button id="zero" onclick="appendToDisplay('0')" >0</button>
+                        <button class="dot" onclick="appendToDisplay('.')" >.</button>
+                    </div>
+            </div>
+            
+            <div class="objects">
+                <button class="divide" onclick="appendToDisplay('/')">/</button>
+                <button class="multiply" onclick="appendToDisplay('*')">x</button>
+                <button class="minus" onclick="appendToDisplay('-')">-</button>
+                <button class="plus" onclick="appendToDisplay('+')">+</button>
+                <button class="equals" onclick="calculate()">=</button>
+            </div>
+
+
+        </div>
+    </div>
+    
+
+
+    <!-- js -->
+    <script src="script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Browser extensions manager UI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="everything">
+
+    <header class="head">
+      <img src="assets\images\logo copy.svg" class="logo1">
+      <img src="assets\images\logo.svg" class="logo2">
+      <div class="sunmoon">
+        <img src="assets\images\icon-sun.svg" class="sun">
+        <img src="assets\images\icon-moon.svg" class="moon">
+      </div>
+    </header>
+
+
+    <div class="mid">
+      <h1 class="list">Extensions List</h1>
+      <div class="buttonsz">
+        <button class="all">All</button>
+        <button class="active">Active</button>
+        <button class="inactive">Inactive</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="extension">
+        <img src="assets\images\logo-devlens.svg" class="img">
+        <div class="top">
+          <h1 class="name">DevLens</h1>
+          <p class="info">Quickly inspect page layouts and <br> visualize element boundaries.</p>
+        </div>
+        <button class="remove">Remove</button>
+        <label class="toggle-switch">
+          <input type="checkbox"class="checkybox" checked>
+          <span class="slider"></span>
+        </label>
+      </div>
+
+      <div class="extension">
+        <img src="assets\images\logo-style-spy.svg" class="img">
+        <div class="top">
+          <h1 class="name">StyleSpy</h1>
+          <p class="info">Instantly analyze and copy CSS from <br> any webpage element.</p>
+        </div>
+        <button class="remove">Remove</button>
+        <label class="toggle-switch">
+          <input type="checkbox" class="checkybox" checked>
+          <span class="slider"></span>
+        </label>
+      </div>
+
+      <div class="extension">
+        <img src="assets\images\logo-speed-boost.svg" class="img">
+        <div class="top">
+          <h1 class="name">SpeedBoost</h1>
+          <p class="info">Optimizes browser resource usage to <br> accelerate page loading.</p>
+        </div>
+        <button class="remove">Remove</button>
+        <label class="toggle-switch">
+          <input type="checkbox" class="checkybox">
+          <span class="slider"></span>
+        </label>
+      </div>
+
+      <div class="extension">
+        <img src="assets\images\logo-json-wizard.svg" class="img">
+        <div class="top">
+          <h1 class="name">JSONWisard</h1>
+          <p class="info">Formats, validates, and prettifies <br> JSON responses in-browser.</p>
+        </div>
+        <button class="remove">Remove</button>
+        <label class="toggle-switch">
+          <input type="checkbox" class="checkybox" checked>
+          <span class="slider"></span>
+        </label>
+      </div>
+
+      <div class="extension">
+        <img src="assets\images\logo-tab-master-pro.svg" class="img">
+        <div class="top">
+          <h1 class="name">TabMaster Pro</h1>
+          <p class="info">Organizes browser tabs into groups <br> and sessions.</p>
+        </div>
+        <button class="remove">Remove</button>
+        <label class="toggle-switch">
+          <input type="checkbox" class="checkybox" checked>
+          <span class="slider"></span>
+        </label>
+      </div>
+
+      <div class="extension">
+        <img src="assets\images\logo-viewport-buddy.svg" class="img">
+        <div class="top">
+          <h1 class="name">ViewportBuddy</h1>
+          <p class="info">Simulates various screen resolutions <br> directly within the browser.</p>
+        </div>
+        <button class="remove">Remove</button>
+        <label class="toggle-switch">
+          <input type="checkbox" class="checkybox">
+          <span class="slider"></span>
+        </label>
+      </div>
+
+      <div class="extension">
+        <img src="assets\images\logo-markup-notes.svg" class="img">
+        <div class="top">
+          <h1 class="name">Markup Notes</h1>
+          <p class="info">Enables annotation and notes directly <br> onto webpages for collaborative <br> debugging.</p>
+        </div>
+        <button class="remove remove1">Remove</button>
+        <label class="toggle-switch">
+          <input type="checkbox" class="checkybox" checked>
+          <span class="slider slider1"></span>
+        </label>
+      </div>
+
+      <div class="extension">
+        <img src="assets\images\logo-grid-guides.svg" class="img">
+        <div class="top">
+          <h1 class="name">GridGuides</h1>
+          <p class="info">Overlay customizable grids and <br> alignment guides on any webpage.</p>
+        </div>
+        <button class="remove">Remove</button>
+        <label class="toggle-switch">
+          <input type="checkbox" class="checkybox">
+          <span class="slider"></span>
+        </label>
+      </div>
+
+      <div class="extension">
+        <img src="assets\images\logo-palette-picker.svg" class="img">
+        <div class="top">
+          <h1 class="name">Pallete Picker</h1>
+          <p class="info">Instantly extracts color palettes from <br> any webpage.</p>
+        </div>
+        <button class="remove">Remove</button>
+        <label class="toggle-switch">
+          <input type="checkbox" class="checkybox" checked>
+          <span class="slider"></span>
+        </label>
+      </div>
+
+      <div class="extension">
+        <img src="assets\images\logo-link-checker.svg" class="img">
+        <div class="top">
+          <h1 class="name">LinkChecker</h1>
+          <p class="info">Scans and highlights broken links on <br> any page.</p>
+        </div>
+        <button class="remove">Remove</button>
+        <label class="toggle-switch">
+          <input type="checkbox" class="checkybox" checked>
+          <span class="slider"></span>
+        </label>
+      </div>
+
+      <div class="extension">
+        <img src="assets\images\logo-dom-snapshot.svg" class="img">
+        <div class="top">
+          <h1 class="name">DOM Snapshot</h1>
+          <p class="info">Capture and export DOM structures <br> quickly.</p>
+        </div>
+        <button class="remove">Remove</button>
+        <label class="toggle-switch">
+          <input type="checkbox" class="checkybox">
+          <span class="slider"></span>
+        </label>
+      </div>
+
+      <div class="extension">
+        <img src="assets\images\logo-console-plus.svg" class="img">
+        <div class="top">
+          <h1 class="name">ConsolePlus</h1>
+          <p class="info">Enhanced developer console with <br> advanced filtering and logging.</p>
+        </div>
+        <button class="remove">Remove</button>
+        <label class="toggle-switch">
+          <input type="checkbox" class="checkybox" checked>
+          <span class="slider"></span>
+        </label>
+      </div>
+  </div>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
