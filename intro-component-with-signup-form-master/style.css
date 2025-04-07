@@ -1,0 +1,85 @@
+body{
+    background-color: #FF7978;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url("images/bg-intro-desktop.png");
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+}
+.left h1{
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+}
+.left p{
+    color: #FFCACB;
+    line-height: 1.4;
+    font-weight: bold;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+.trial{
+    max-height: 60px;
+    max-width: 500px;
+    background-color: #5D54A3;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 7px 0 #DA6666;
+    cursor: pointer;
+}
+.trial span{
+    font-weight: bold;
+}
+.container{
+    max-height: 400px;
+    max-width: 440px;
+    background-color: white;
+    margin-top: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 7px 0px #DA6666 ;
+}
+.container input{
+    height: 50px;
+    width: 94%;
+    padding-left: 20px;
+    margin-bottom: 15px;
+
+}
+.claim{
+    height: 60px;
+    width: 100%;
+    background-color: #37CC8A;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 4px 0px #2ba66f;
+}
+.terms{
+    color: #bababa;
+    font-size: 14px;
+    transform: translateX(15px);
+}
+.terms span{
+    color: #c37478;
+    cursor: pointer;
+}
+.terms span:hover{
+    text-decoration: underline;
+}
