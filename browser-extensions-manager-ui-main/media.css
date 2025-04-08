@@ -1,0 +1,72 @@
+@media (max-width: 1220px) {
+    body{
+        height: 260vh;
+    }
+    .mid{
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
+        margin-top: 30px;
+        gap: 30px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        place-items: center;
+    }
+}
+
+@media (max-width: 850px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 430vh;
+    }
+    .everything{
+        padding-left: 3%;
+        padding-right: 3%;
+        height: 430vh;
+        width: 90%;
+    }
+    .logo1{
+        width: 200px;
+        margin-left: 20px;
+    }
+    .logo2{
+        width: 200px;
+        margin-left: 20px;
+    }
+    .sunmoon{
+        margin-right: 20px;
+    }
+
+
+
+    .mid{
+        display: flex;
+        flex-direction: column;
+    }
+    .mid h1{
+        font-size: 40px;
+    }
+    .buttonsz{
+        display: flex;
+        gap: 25px;
+    }
+    .niggz{
+        height: 45px;
+        width: 100px;
+    }
+
+
+    .container{
+        margin-top: 30px;
+        gap: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+

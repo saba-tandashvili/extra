@@ -1,3 +1,5 @@
+const body = document.querySelector("body")
+
 const sun = document.querySelector(".sun")
 const moon = document.querySelector(".moon")
 const sunmoon = document.querySelector(".sunmoon")
@@ -5,16 +7,16 @@ const sunmoon = document.querySelector(".sunmoon")
 const everything = document.querySelector(".everything")
 
 const head = document.querySelector(".head")
+const container = document.querySelector(".container")
+
+
 const logo1 = document.querySelector(".logo1")
 const logo2 = document.querySelector(".logo2")
 
-const all = document.querySelector(".all")
-const active = document.querySelector(".active")
-const inactive = document.querySelector(".inactive")
+
 
 const list = document.querySelector(".list")
 
-const extension = document.querySelectorAll(".extension")
 const name = document.querySelectorAll(".name")
 const remove = document.querySelectorAll(".remove")
 
@@ -57,13 +59,27 @@ remove.forEach(removet => {
 })
 
 
-active.addEventListener('click', () => {
-    checkybox.forEach(checkyboxy => {
-        checkyboxy.checked = true
-    })
-})
-inactive.addEventListener('click', () => {
-    checkybox.forEach(checkyboxy => {
-        checkyboxy.checked = false
-    })
-})
+const all = document.querySelector('.all');
+const active = document.querySelector('.active');
+const inactive = document.querySelector('.inactive');
+
+const extension = document.querySelectorAll('.extension');
+
+function updateDisplay(filter) {
+  extension.forEach(ext => {
+    const checkbox = ext.querySelector('.checkybox');
+    const isActive = checkbox.checked;
+
+    if (filter === 'all') {
+      ext.style.display = 'block';
+    } else if (filter === 'active') {
+      ext.style.display = isActive ? 'block' : 'none';
+    } else if (filter === 'inactive') {
+      ext.style.display = isActive ? 'none' : 'block';
+    }
+  });
+}
+
+all.addEventListener('click', () => updateDisplay('all'));
+active.addEventListener('click', () => updateDisplay('active'));
+inactive.addEventListener('click', () => updateDisplay('inactive'));

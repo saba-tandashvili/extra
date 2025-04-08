@@ -1,11 +1,9 @@
 body{
     padding: 0;
     margin: 0;
+    background: linear-gradient(to bottom, #04091C, #0A1542);
 }
 .everything{
-    background: linear-gradient(to bottom, #04091C, #0A1542);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     font-family: sans-serif;
     padding-left: 10%;
     padding-right: 10%;
@@ -78,7 +76,7 @@ button{
     transition: 0.3s;
 }
 .all:hover{
-    background-color: #545969;
+    background-color: rgb(247, 136, 130);
 }
 .active{
     background-color: #2F354B;
@@ -109,8 +107,9 @@ button{
 
 .container{
     display: grid;
-    grid-template-rows: 200px 200px 200px;
-    grid-template-columns: 365px 365px 365px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    place-self: center;
 }
 
 .extension{
