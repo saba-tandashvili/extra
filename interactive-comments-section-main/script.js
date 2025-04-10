@@ -1,32 +1,33 @@
-const rates = document.querySelector(".rates");
-const ratesup = document.querySelectorAll(".ratesup");
-const ratesdown = document.querySelectorAll(".ratesdown");
+// import MyComponent from "./MyComponent";
 
-const deleter = document.querySelector(".delete");
-const deleted = document.querySelector(".deleted");
+// const ratesup = document.querySelectorAll(".ratesup");
+// const ratesdown = document.querySelectorAll(".ratesdown");
 
-ratesup.forEach((button1) => {
-  button1.addEventListener("click", () => {
-    let rates = button1.nextElementSibling;
-    rates.innerHTML++;
-    let currentValue = rates.innerHTML;
-    if (currentValue > 20) {
-      rates.innerHTML = 5;
-    }
-  });
-});
+// const deleter = document.querySelector(".delete");
+// const deleted = document.querySelector(".deleted");
 
-ratesdown.forEach((button2) => {
-  button2.addEventListener("click", () => {
-    let rates = button2.previousElementSibling;
-    let currentValue = rates.innerHTML;
+// ratesup.forEach((button1) => {
+//   button1.addEventListener("click", () => {
+//     let rates = button1.nextElementSibling;
+//     rates.innerHTML++;
+//     let currentValue = rates.innerHTML;
+//     if (currentValue > 20) {
+//       rates.innerHTML = 20;
+//     }
+//   });
+// });
 
-    if (currentValue > 1) {
-      rates.innerHTML--;
-    }
-  });
-});
+// ratesdown.forEach((button2) => {
+//   button2.addEventListener("click", () => {
+//     let rates = button2.previousElementSibling;
+//     let currentValue = rates.innerHTML;
 
-deleter.addEventListener("click", () => {
-  deleted.style.display = "none";
-});
+//     if (currentValue > 1) {
+//       rates.innerHTML--;
+//     }
+//   });
+// });
+
+// deleter.addEventListener("click", () => {
+//   deleted.style.display = "none";
+// });

@@ -1,0 +1,14 @@
+@media (max-width: 1100px) {
+    .trials{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .trial{
+        width: 30vh;
+        height: 45vh;
+    }
+    .lmore{
+        height: 4vh;
+    }
+}

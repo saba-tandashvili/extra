@@ -9,7 +9,7 @@
   </style>
 </head>
 <body>
-  <div class="container">
+  <div class="container" id="root">
     <div class="topper">
 
       <!-- first -->
@@ -17,7 +17,7 @@
 
         <div class="rate">
           <button class="ratesup">+</button>
-          <p class="rates" >1</p>
+          <p class="rates">1</p>
           <button class="ratesdown">-</button>
         </div>
 
@@ -109,13 +109,16 @@
         <div class="add">
           <img src="images\avatars\image-juliusomo.png" class="img">
           <input type="text" placeholder="Add a comment...">
-          <button>SEND</button>
+          <button class="send">SEND</button>
         </div>
       </div>
 
     </div>
   </div>
 
-  <script src="script.js"></script>
+  
+  <script type="module" src="my-app\src\main.jsx"></script>
+
+
 </body>
 </html>
